@@ -1,0 +1,193 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  overflow:;
+}
+.container{
+  text-align: center;
+  padding: .8em, 1.2em; 
+}
+.time{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 30vh;
+}
+.btn{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  color: #fff;
+  background-color:#8d0505;
+  border: none;
+  margin-top: 3%;
+  font-size: 2.5em;
+  font-weight: bold;
+  outline: none;
+  cursor: pointer;
+}
+.btn:hover {
+  cursor: pointer;
+  background-color: #fff;
+  color: #000000;
+  border: 1px solid #8d0505;
+}
+.size{
+  height: 50vh !important;
+  opacity: 0.8;
+}
+.timer{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+#myProgress {
+  margin-top: 15%;
+  width: 70%;
+  background-color: #8d0505;
+  border-radius: 14px;
+  padding: 3px;
+  height: 34px;
+}
+
+#myBar {
+  width: 5%;
+  height: 28px;
+  background-color: white;
+  border-radius: 13px;
+  text-align: center;
+  line-height: 30px;
+  color: black;
+}
+audio{
+  display: none;
+}
+/* .percent-count{
+  /* width: 450px; */
+  /* height: 50px;
+  margin: 40px auto;
+  color: rgb(20, 20, 20);
+  font-size: 40px;
+  text-align: center; */
+/* } */ 
+/* .progress-bar{
+  width: 100%;
+  height: 25px;
+  border-radius: 13px;
+  background-color: #8d0505;
+  margin: 50px auto;
+  padding: 2px;
+}
+.progress{
+  border-radius: 10px;
+  width: 25px;
+  height: 20px;
+  background-color: #f5efef;
+} */
+
+
+@media only screen and (min-width: 650px){
+  .size{
+    height: 60vh !important;
+  }
+  .btn{
+    width: 260px;
+    height: 260px;
+    font-size: 2.9em;
+  }
+  .percent-count{
+    width: 450px;
+    height: 50px;
+    margin: 100px auto;
+    color: rgb(20, 20, 20);
+    font-size: 50px;
+    text-align: center;
+  }
+  .progress-bar{
+    width: 506px;
+    height: 26px;
+    border-radius: 13px;
+    background-color: rgb(85, 81, 81);
+    margin: 50px auto;
+    padding: 3px;
+  }
+  .progress{
+    border-radius: 10px;
+    width: 25px;
+    height: 20px;
+    background-color: black;
+  }
+}
+
+@media only screen and (min-width: 875px){
+  .size{
+    height: 60vh !important;
+  }
+  .btn{
+    width: 260px;
+    height: 260px;
+    font-size: 2.9em;
+  }
+  .percent-count{
+    width: 450px;
+    height: 50px;
+    margin: 100px auto;
+    color: rgb(20, 20, 20);
+    font-size: 50px;
+    text-align: center;
+  }
+  .progress-bar{
+    width: 506px;
+    height: 26px;
+    border-radius: 13px;
+    background-color: rgb(85, 81, 81);
+    margin: 50px auto;
+    padding: 3px;
+  }
+  .progress{
+    border-radius: 10px;
+    width: 25px;
+    height: 20px;
+    background-color: black;
+  }
+}
+
+@media only screen and (min-width: 1024px){
+  .size{
+    height: 80vh !important;
+  }
+  .btn{
+    width: 260px;
+    height: 260px;
+    font-size: 2.9em;
+  }
+  .percent-count{
+    width: 450px;
+    height: 50px;
+    margin: 100px auto;
+    color: rgb(20, 20, 20);
+    font-size: 50px;
+    text-align: center;
+  }
+  .progress-bar{
+    width: 506px;
+    height: 26px;
+    border-radius: 13px;
+    background-color: rgb(85, 81, 81);
+    margin: 50px auto;
+    padding: 3px;
+  }
+  .progress{
+    border-radius: 10px;
+    width: 25px;
+    height: 20px;
+    background-color: black;
+  }
+}
